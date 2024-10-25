@@ -32,46 +32,39 @@ The Process Scheduling Simulator is a graphical user interface (GUI) application
    ```bash
    git clone <repository-url>
    cd <repository-directory>
-Install required packages:
 
-You can install the required packages using pip. Run the following command in your terminal:
+## Install required packages:
 
-bash
-Copy code
-pip install pillow matplotlib
-Download a background image:
+- You can install the required packages using pip. Run the following command in your terminal:
+- pip install pillow matplotlib
 
-Ensure you have a suitable background image (e.g., operating_system.jpg). Place it in the same directory as the script or adjust the path in the code accordingly.
+## Download a background image:
 
-Usage
-Run the application:
+- Ensure you have a suitable background image (e.g., operating_system.jpg). Place it in the same directory as the script or adjust the path in the code accordingly.
 
-You can run the simulator by executing the Python script:
+## Input process details:
 
+- Enter the number of processes you want to simulate.
+- Click on "Set Processes" to generate input fields for each process.
+- Fill in the arrival time, burst time, and priority for each process.
+- Select a scheduling algorithm:
 
-python os_expo.py
-Input process details:
+- Choose from the available scheduling algorithms by clicking the corresponding button (FCFS, SJF, Priority, Round Robin, or SRTF).
 
-Enter the number of processes you want to simulate.
-Click on "Set Processes" to generate input fields for each process.
-Fill in the arrival time, burst time, and priority for each process.
-Select a scheduling algorithm:
+## View results:
 
-Choose from the available scheduling algorithms by clicking the corresponding button (FCFS, SJF, Priority, Round Robin, or SRTF).
+- After selecting an algorithm, the Gantt chart will display the scheduling results based on the input data.
 
-View results:
+## Close or minimize the application:
 
-After selecting an algorithm, the Gantt chart will display the scheduling results based on the input data.
+- Use the minimize (_) and close (X) buttons located at the top right corner of the window.
 
-Close or minimize the application:
+## Notes
+- To toggle fullscreen mode, press the F11 key. You can exit fullscreen by pressing the Escape key.
+- Ensure that the background image is high-resolution (at least 2K) for best results.
 
-Use the minimize (_) and close (X) buttons located at the top right corner of the window.
+## Contributing
+- If you would like to contribute to this project, feel free to submit a pull request or open an issue for any bugs or feature requests.
 
-Notes
-To toggle fullscreen mode, press the F11 key. You can exit fullscreen by pressing the Escape key.
-Ensure that the background image is high-resolution (at least 2K) for best results.
-Contributing
-If you would like to contribute to this project, feel free to submit a pull request or open an issue for any bugs or feature requests.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+- This project is licensed under the MIT License. See the LICENSE file for details.
