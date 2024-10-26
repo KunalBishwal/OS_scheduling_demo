@@ -48,16 +48,21 @@ The Process Scheduling Simulator is a graphical user interface (GUI) application
 - Click on "Set Processes" to generate input fields for each process.
 - Fill in the arrival time, burst time, and priority for each process.
 - Select a scheduling algorithm:
-
 - Choose from the available scheduling algorithms by clicking the corresponding button (FCFS, SJF, Priority, Round Robin, or SRTF).
 
-## View results:
+## Screenshots
+Below are screenshots showcasing different parts of the OS process Scheduling simulator.
 
-- After selecting an algorithm, the Gantt chart will display the scheduling results based on the input data.
+### 1. Main Screen
+<img src="screenshots/main_screen.png" alt="Main Screen" width="500"/>
 
-## Close or minimize the application:
+### 2. Main Screen With Table
+<img src="screenshots/maintable_screen.png" alt="AT,BT TABLE" width="500"/>
 
-- Use the minimize (_) and close (X) buttons located at the top right corner of the window.
+### 3. Gannt Charts
+<img src="screenshots/ganntchart_screen.png" alt="Gannt Charts" width="500"/>
+
+> **Note**: Place your screenshots in a folder named `screenshots` within the project directory. Ensure that the paths in this `README.md` file match the folder structure.
 
 ## Notes
 - To toggle fullscreen mode, press the F11 key. You can exit fullscreen by pressing the Escape key.
